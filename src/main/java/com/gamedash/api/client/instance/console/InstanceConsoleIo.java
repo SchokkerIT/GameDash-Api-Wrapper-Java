@@ -65,7 +65,7 @@ public class InstanceConsoleIo {
 
     }
 
-    public Boolean acceptInput() throws Exception {
+    public Boolean acceptsInput() throws Exception {
 
         ApiQuery query = ApiClient.createQuery("instance/" + this.instance.getId() + "/console/io/input/accepts");
 
